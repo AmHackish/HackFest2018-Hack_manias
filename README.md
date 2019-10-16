@@ -12,7 +12,7 @@ Pre-requisites :-
 2. OpenCV(python-distribution), we used 2.7.4 in Raspberry and 3.4.2 in our systems.
 3. Raspberry Pi, atleast 2-B. Even 2-b was too slow for such heavy tasks, so we had to optimize our codes seriously.
 
-We used background deletion by pixel differentiation and contours formation to recognise the gestures.
+We used background deletion by pixel differentiation using Gauss Blur and contours formation to recognise the gestures.
 
 Raspberry GPIO pins were used to control hardware which can be extended to AC circuits too using relays.
 
